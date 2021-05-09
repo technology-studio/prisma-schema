@@ -2,6 +2,7 @@
   "compilerOptions": {
     "lib": ["esnext", "dom"],
     "jsx": "react",
+    "target": "ES5",
     "strict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
@@ -10,6 +11,7 @@
     "alwaysStrict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "resolveJsonModule": true
   }
 }

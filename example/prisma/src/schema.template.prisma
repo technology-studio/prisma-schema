@@ -1,0 +1,5 @@
+// @import './header.template.prisma'
+// @import './inherit.template.prisma'
+// @import './extend.template.prisma'
+// @import './attribute-override.template.prisma'
+// @import './attribute-remove.template.prisma'

@@ -12,6 +12,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "sample": "yarn ts-node packages/@txo/prisma-schema/src/Cli/index.ts process ./example/prisma/src/schema.template.prisma --output-file ./example/prisma/schema.prisma",
     "test": "jest",
     "test:watch": "concurrently \"yarn workspaces run build:watch\" \"jest --watch\"",
     "coverage": "jest --coverage && open coverage/lcov-report/index.html || xdg-open coverage/lcov-report/index.html",
@@ -49,6 +50,7 @@
     "npm-check-updates": "^11.5.10",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.5.5",
+    "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   },
   "jest": {

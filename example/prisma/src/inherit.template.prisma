@@ -1,0 +1,15 @@
+// @import './base.template.prisma'
+
+enum Platform {
+  ANDROID
+  IOS
+  WEB
+  WINDOWS
+}
+
+model Application { // @inherits BaseModel
+  clientKey         String
+  clientSecret      String
+  platform          Platform
+}
+

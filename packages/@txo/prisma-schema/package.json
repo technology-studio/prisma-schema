@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Technology Studio - Prisma schema",
   "main": "lib/index.js",
+  "bin": {
+    "prisma-schema": "./cli.js"
+  },
   "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",

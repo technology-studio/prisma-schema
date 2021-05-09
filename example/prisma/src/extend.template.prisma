@@ -1,0 +1,8 @@
+
+model Application { // @extend
+  version           String
+}
+
+model Application { // @extend
+  name           String
+}
