@@ -46,11 +46,11 @@ Following files
 ```
 
 #### **`Entity attribute override`**
-```prisma:example/prisma/src/override.template.prisma
+```prisma:example/prisma/src/attribute-override.template.prisma
 ```
 
 #### **`Entity attribute removal`**
-```prisma:example/prisma/src/remove.template.prisma
+```prisma:example/prisma/src/attribute-remove.template.prisma
 ```
 
 #### **`Main source template`**
