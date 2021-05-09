@@ -1,0 +1,75 @@
+{
+  "description": "Technology Studio - Prisma schema",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technology-studio/prisma-schema.git"
+  },
+  "author": {
+    "name": "Technology Studio",
+    "email": "npm@technologystudio.sk",
+    "url": "https://github.com/technology-studio/"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "concurrently \"yarn workspaces run build:watch\" \"jest --watch\"",
+    "coverage": "jest --coverage && open coverage/lcov-report/index.html || xdg-open coverage/lcov-report/index.html",
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx .",
+    "fixcode": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx . --fix",
+    "git-hook": "yarn -s lint",
+    "postinstall": "husky install",
+    "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
+    "sanity": "yarn lint && yarn tsc && yarn test && yarn outdated && echo 'success'",
+    "wd": "yarn workspace @txo/prisma-schema",
+    "wpd": "yarn workspace @txo-peer-dep/prisma-schema"
+  },
+  "workspaces": [
+    "packages/@txo/*",
+    "packages/@txo-peer-dep/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@txo-peer-dep/log": "^4.0.0",
+    "@txo/log-console": "^3.0.0",
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "concurrently": "^6.0.2",
+    "eslint": "^7.25.0",
+    "eslint-config-txo-typescript": "^2.3.1",
+    "eslint-formatter-pretty": "^4.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "npm-check-updates": "^11.5.10",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.5",
+    "typescript": "^4.2.4"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.ts",
+      "**/?(*.)(spec|test).ts?(x)"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@txo).+\\.js$"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/__tests__/Config/",
+      "<rootDir>/__tests__/Setup.ts",
+      "<rootDir>/__tests__/Data.ts",
+      "<rootDir>/__tests__/Utils/"
+    ],
+    "setupFiles": [
+      "<rootDir>/__tests__/Setup.ts"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "txo-typescript",
+    "plugin:jest/recommended"
+  ],
+  "parser": "@typescript-eslint/parser"
+}
