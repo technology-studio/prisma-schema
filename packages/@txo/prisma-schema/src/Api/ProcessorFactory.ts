@@ -40,8 +40,8 @@ export const processorFactory = (
     })
   })
 
-  const manipulatorsRemovalRegExp = new RegExp(`\n+[^\n]*${keyword}[^\n]*[^{]*[^}]*\\}\n+`, 'g')
-  schema = schema.replace(manipulatorsRemovalRegExp, '\n\n')
+  const manipulatorsRemovalRegExp = new RegExp(`[^\n]*${keyword}[^\n]*[^}]*\\}[^\n]*\n+`, 'g')
+  schema = schema.replace(manipulatorsRemovalRegExp, '\n').replace(/\n\n+/g, '\n\n')
 
   return schema
 }
