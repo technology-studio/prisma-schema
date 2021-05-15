@@ -10,8 +10,11 @@ import { dirname, join } from 'path'
 const processImports = (schema: string, folderPath: string): string => {
   return schema.replace(/[^\n]*(\/\/)\s*@import[^']*'(?<importFile>[^']*)'[^\n]*/gs, (...match) => {
     const groups = match[match.length - 1]
-    const importFilePath = groups.importFile
-    return loadSchemaAndProcessImports(join(folderPath, importFilePath))
+    const importFilePath: string = groups.importFile
+    const nextFolderPath = importFilePath.startsWith('.')
+      ? join(folderPath, importFilePath)
+      : require.resolve(importFilePath)
+    return loadSchemaAndProcessImports(nextFolderPath)
   })
 }
 
