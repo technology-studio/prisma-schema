@@ -1,6 +1,6 @@
 {
   "name": "@txo/prisma-schema",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Technology Studio - Prisma schema",
   "main": "lib/index.js",
   "bin": {
