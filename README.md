@@ -50,7 +50,7 @@ model BaseModel { // @abstract
   id                String      @id @default(cuid())
   createdDateTime   DateTime    @default(now())
   updatedDateTime   DateTime    @updatedAt
-  deletedDateTime   DateTime    @default(dbgenerated("1970-01-01T00:00:00-00:00"))
+  deletedDateTime   DateTime    @default("1970-01-01T00:00:00-00:00")
 }
 
 ```
@@ -138,15 +138,14 @@ enum Platform {
 }
 
 model Application {
-  id                String      @id @default(cuid())
-  createdDateTime   DateTime    @default(now())
-  updatedDateTime   DateTime    @updatedAt
-  deletedDateTime   DateTime    @default(dbgenerated("1970-01-01T00:00:00-00:00"))
-  clientSecret         Int
-  platform          Platform
-  version           String
-  name           String
+  id              String   @id @default(cuid())
+  createdDateTime DateTime @default(now())
+  updatedDateTime DateTime @updatedAt
+  deletedDateTime DateTime @default("1970-01-01T00:00:00-00:00")
+  clientSecret    Int
+  platform        Platform
+  version         String
+  name            String
 }
-
 
 ```
