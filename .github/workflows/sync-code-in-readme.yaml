@@ -1,4 +1,4 @@
-name: Embed code in README
+name: Embed code in README (test)
 
 on:
   push:
