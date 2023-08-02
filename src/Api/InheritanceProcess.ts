@@ -20,20 +20,18 @@ const produceDependencyList = (entityMap: Record<string, Entity>): Dependency[] 
     name,
     children: [],
     get depth () {
-      return 1 + this.children.reduce((max: number, { depth }) => {
-        return Math.max(max, depth)
-      }, 0)
+      return 1 + this.children.reduce((max: number, { depth }) => Math.max(max, depth), 0)
     },
   })
   Object.values(entityMap).forEach(({ name, parentName }) => {
-    if (parentName) {
+    if (parentName != null && parentName !== '') {
       let parentDependency = dependencyMap[parentName]
       let dependency = dependencyMap[name]
-      if (!dependency) {
+      if (dependency == null) {
         dependency = dependencyFactory(name)
         dependencyMap[name] = dependency
       }
-      if (!parentDependency) {
+      if (parentDependency == null) {
         parentDependency = dependencyFactory(parentName)
         dependencyMap[parentName] = parentDependency
       }
@@ -57,13 +55,13 @@ const expandInheritance = (schema: string, dependency: Dependency): string => (
 )
 
 const extractEntityMap = (schema: string): Record<string, Entity> => {
-  const entityContentList = (schema.match(/(model|enum) [^{]*[^}]*\}/gs) ?? [])
+  const entityContentList: string[] = (schema.match(/(model|enum) [^{]*[^}]*\}/gs) ?? [])
 
   return entityContentList.reduce((entityMap: Record<string, Entity>, content) => {
     const match = content.match(
       /(model|enum)\s*(?<name>\w*)\s*\{\s*(\/\/\s*@inherits\s*(?<parentName>\w*))?/,
     )
-    if (match?.groups) {
+    if ((match?.groups) != null) {
       const { name, parentName } = match.groups
       entityMap[name] = {
         name,

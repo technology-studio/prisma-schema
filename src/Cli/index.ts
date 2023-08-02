@@ -8,7 +8,7 @@ import yargs from 'yargs'
 
 import { processCommand } from '../Commands/ProcessCommand'
 
-yargs
+void yargs
   .usage('Usage: $0 <command> [options]\n\nPrima schema client tools.')
   .command(processCommand)
   .demandCommand()

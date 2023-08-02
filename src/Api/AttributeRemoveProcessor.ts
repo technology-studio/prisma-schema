@@ -5,7 +5,6 @@
 **/
 
 import { processorFactory } from './ProcessorFactory'
-
 import { getAttributeName } from './AttributeProcessor'
 
 export const processAttributeRemove = processorFactory(
@@ -14,11 +13,11 @@ export const processAttributeRemove = processorFactory(
     const manipulatorAttributeList = entityManipulatorContent.split('\n')
     return entityContent.split('\n').reduce((nextContent, attribute) => {
       const attributeName = getAttributeName(attribute)
-      if (attributeName) {
+      if (attributeName != null && attributeName !== '') {
         const manipulatorAttribute = manipulatorAttributeList.find(
           manipulatorAttribute => getAttributeName(manipulatorAttribute) === attributeName,
         )
-        if (manipulatorAttribute) {
+        if (manipulatorAttribute != null && manipulatorAttribute !== '') {
           return nextContent
         }
       }
