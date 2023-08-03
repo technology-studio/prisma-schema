@@ -15,13 +15,14 @@ configManager.update({
   loggerConfigMap: {
     [ConsoleLogger.LOGGER_KEY]: {
       writeLog: ConsoleLogger.writeLog,
-      nodeEnvironmentList: ['production', 'development'],
+      nodeEnvironmentList: ['production', 'development', 'test'],
     },
     // [ReactotronLogger.LOGGER_KEY]: {
     //   writeLog: ReactotronLogger.writeLog,
     //   nodeEnvironmentList: ['development'],
     // },
   },
+  payloadProcessor: () => (payload: Record<string, unknown>) => JSON.stringify(payload, null, 2),
   defaultLevelForNodeEnvironmentMap: {
     production: Level.ERROR,
     development: Level.INFO,

@@ -34,7 +34,7 @@ Following files
 generator client {
   provider      = "prisma-client-js"
   binaryTargets = ["native", "rhel-openssl-1.0.x"]
-  // previewFeatures = []
+  // previewFeatures = [] some test
 }
 
 datasource db {
