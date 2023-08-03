@@ -1,17 +1,18 @@
 {
+  "extends": "./tsconfig-base.json",
   "compilerOptions": {
-    "lib": ["esnext", "dom"],
-    "jsx": "react",
-    "target": "ES5",
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "alwaysStrict": true,
-    "strictBindCallApply": true,
-    "strictFunctionTypes": true,
-    "sourceMap": true,
-    "resolveJsonModule": true
-  }
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "paths": {
+    }
+  },
+  "include": [
+    "src",
+    "cli.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

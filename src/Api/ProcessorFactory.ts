@@ -28,15 +28,15 @@ export const processorFactory = (
       `(?<entitySignature>[^\n]*${entityType}\\s*${entityName}[^{]*\\{[^\n]*\n)(?<entityContent>[^}]*)\\}`,
     )
     schema = schema.replace(entityToManipulateRegExp, (...args): string => {
-      const { entitySignature, entityContent } = args[args.length - 1]
-      // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
-      return entitySignature + contentProcessor({
+      const { entitySignature, entityContent } = args[args.length - 1] as { entitySignature: string, entityContent: string }
+
+      return `${entitySignature + contentProcessor({
         schema,
         entityContent,
         entityManipulatorContent,
         entityName,
         entityType,
-      }) + '}'
+      })}}`
     })
   })
 

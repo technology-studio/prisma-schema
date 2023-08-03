@@ -1,4 +1,4 @@
-name: Embed code in README
+name: Embed code in README (test)
 
 on:
   push:
@@ -12,11 +12,11 @@ jobs:
   embed-code:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: technology-studio-forks/markdown-embed-code@v1.1.0
+      - uses: technology-studio-forks/markdown-embed-code@v1.1.4
         with:
           markdown: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
