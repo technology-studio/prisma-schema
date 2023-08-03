@@ -3,5 +3,11 @@
     "txo-typescript",
     "plugin:jest/recommended"
   ],
-  "parser": "@typescript-eslint/parser"
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json",
+      "./__tests__/tsconfig.json"
+    ]
+  }
 }

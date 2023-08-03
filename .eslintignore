@@ -1,2 +1,4 @@
-packages/**/node_modules/**
-packages/**/lib/**
+commitlint.config.js
+jest.config.js
+lib
+release.config.js

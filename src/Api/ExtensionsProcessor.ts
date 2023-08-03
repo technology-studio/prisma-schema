@@ -7,10 +7,8 @@ import { processorFactory } from './ProcessorFactory'
 
 export const processExtensions = processorFactory(
   '@extend',
-  ({ entityManipulatorContent, entityContent }) => {
-    return (
-      entityContent +
+  ({ entityManipulatorContent, entityContent }) => (
+    entityContent +
       entityManipulatorContent
-    )
-  },
+  ),
 )
