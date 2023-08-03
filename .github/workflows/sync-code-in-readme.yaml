@@ -16,7 +16,7 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: technology-studio-forks/markdown-embed-code@fix-faliing-git-operations
+      - uses: technology-studio-forks/markdown-embed-code@v1.1.4
         with:
           markdown: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
