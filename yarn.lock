@@ -3137,9 +3137,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-"eslint-config-standard-with-typescript@git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git":
+"eslint-config-standard-with-typescript@https://github.com/technology-studio-forks/eslint-config-standard-with-typescript":
   version "36.0.0"
-  resolved "git+https://github.com/technology-studio-forks/eslint-config-standard-with-typescript.git#9cae293318a111911178737ae4159896c19aa700"
+  uid "9cae293318a111911178737ae4159896c19aa700"
+  resolved "https://github.com/technology-studio-forks/eslint-config-standard-with-typescript#9cae293318a111911178737ae4159896c19aa700"
   dependencies:
     "@typescript-eslint/parser" "^6.0.0"
     eslint-config-standard "17.0.0"
@@ -6208,10 +6209,10 @@ npm-bundled@^3.0.0:
   dependencies:
     npm-normalize-package-bin "^3.0.0"
 
-npm-check-updates@^16.10.17:
-  version "16.10.17"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.10.17.tgz#1f28b024235c2ecc34ce7361c0376d61953b556c"
-  integrity sha512-ZoIbWYJhlgMDoByq1WC6Ys3E76IvNCxgS54tPUFbK5J/nqf/BCJt6xiMPAEa7G1HuyAruG+orUF9uTsTGUZl8g==
+npm-check-updates@^16.10.18:
+  version "16.10.18"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.10.18.tgz#6f6fcbc57c519e7ad12d370a18de8afdf021b597"
+  integrity sha512-dmfhCMX7+UNrBeftBGb1rMX4Qi6+FOI5cuu1VkLeE4LIazbiEYsdgTG+GQywYry+BR9R3EfOXITYPfgRhcdznw==
   dependencies:
     chalk "^5.3.0"
     cli-table3 "^0.6.3"
