@@ -52,7 +52,7 @@
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
     "commitizen": "^4.3.0",
-    "concurrently": "^8.2.0",
+    "concurrently": "^8.2.1",
     "eslint": "^8.47.0",
     "eslint-config-txo-typescript": "^3.3.8",
     "eslint-formatter-pretty": "^5.0.0",
