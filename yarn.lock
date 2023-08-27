@@ -1604,7 +1604,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/parser@^6.1.0", "@typescript-eslint/parser@^6.4.1":
+"@typescript-eslint/parser@^6.4.0", "@typescript-eslint/parser@^6.4.1":
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/parser/-/parser-6.4.1.tgz#85ad550bf4ac4aa227504f1becb828f8e46c44e3"
   integrity sha512-610G6KHymg9V7EqOaNBMtD1GgpAmGROsmfHJPXNLCU9bfIuLrkdOygltK784F6Crboyd5tBFayPB7Sf0McrQwg==
@@ -3117,12 +3117,12 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-standard-with-typescript@^38.0.0:
-  version "38.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-38.0.0.tgz#4e25e47011d51a30c8c68934e65e7d744b222cda"
-  integrity sha512-G7JR6I8tmWEQjzbESo/9gVq4AQctbVO4J8PINQj8l2lgbJF/W9KCJ4uDLiKmLMjWszW/F5SsucoA/5VpHvfwOQ==
+eslint-config-standard-with-typescript@^39.0.0:
+  version "39.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-39.0.0.tgz#310847a474298cd64a8664a1d5b5434fb30e37b9"
+  integrity sha512-CiV2LS4NUeeRmDTDf1ocUMpMxitSyW0g+Y/N7ecElwGj188GahbcQgqfBNyVsIXQxHlZVBlOjkbg3oUI0R3KBg==
   dependencies:
-    "@typescript-eslint/parser" "^6.1.0"
+    "@typescript-eslint/parser" "^6.4.0"
     eslint-config-standard "17.1.0"
 
 eslint-config-standard@17.1.0:
@@ -3130,12 +3130,12 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^3.3.13:
-  version "3.3.13"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-3.3.13.tgz#12ce6e2edd17a4c0a2a0a51705bbdd7147550867"
-  integrity sha512-hehUXeHYslU5afzEaY9HE4a2AzewWl5mypBIWGsFYOfJTXj7LtPfpJ7TkgMNfrk04vEIcmDRiHF8PFmEtxDkSA==
+eslint-config-txo-typescript@^3.3.14:
+  version "3.3.14"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-3.3.14.tgz#718ba23aca7b31400c0ee867b8f95e7a88eeea71"
+  integrity sha512-0YeP09uloMMF/o0PNDrbG3RcPQa+PKnefmuMbhh+HJqOi1OjA3G5xd3vI5TYq0z9XaGf7n9uc8wBoGUBScR/qA==
   dependencies:
-    eslint-config-standard-with-typescript "^38.0.0"
+    eslint-config-standard-with-typescript "^39.0.0"
     eslint-import-resolver-typescript "^3.6.0"
 
 eslint-formatter-pretty@^5.0.0:
