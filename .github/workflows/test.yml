@@ -19,4 +19,4 @@ jobs:
           node-version-file: '.nvmrc'
       - run: yarn install --frozen-lockfile
       - run: yarn test --coverage
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
