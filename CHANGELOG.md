@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/technology-studio/prisma-schema/compare/v1.1.2...v1.1.3) (2023-09-20)
+
+
+### Bug fixes
+
+* recreate yarn.lock ([#63](https://github.com/technology-studio/prisma-schema/issues/63)) ([b140faa](https://github.com/technology-studio/prisma-schema/commit/b140faa0a296ad19dea0bc89fe6e8bf06159d3e5))
+
 ## [1.1.2](https://github.com/technology-studio/prisma-schema/compare/v1.1.1...v1.1.2) (2023-08-03)
 
 
