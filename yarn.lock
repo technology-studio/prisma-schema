@@ -1380,10 +1380,10 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@txo-peer-dep/log@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-4.0.1.tgz#da05983a215b0d9efc7d91ac6f53c8d31529d6fe"
-  integrity sha512-SlEjv1r8mi52Iv6rsHUiO226GxChsKxCA+TeyZ4GoQwG4W+ZVmS+tok9QGEuc2pNn4W8kGk7Cj/i3RCYndf/iQ==
+"@txo-peer-dep/log@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-4.0.2.tgz#fa5ca396b43a534fc04bcaf7a31edcbd2543860c"
+  integrity sha512-tjdrOoyngUV9mbM9aURhQLwOTD9yEj+yiUx6yOG6CZNwqO9/EspRAUlyn03l7BzYwI2gWqfLLMt+4Zj385PVGw==
   dependencies:
     "@txo/config-manager" "^3.1.0"
 
