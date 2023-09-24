@@ -2985,12 +2985,12 @@ enhanced-resolve@^5.12.0:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
 
-env-ci@^9.0.0:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/env-ci/-/env-ci-9.1.1.tgz#f081684c64a639c6ff5cb801bd70464bd40498a4"
-  integrity sha512-Im2yEWeF4b2RAMAaWvGioXk6m0UNaIjD8hj28j2ij5ldnIFrDQT0+pzDvpbRkcjurhXhf/AsBKv8P2rtmGi9Aw==
+env-ci@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/env-ci/-/env-ci-10.0.0.tgz#38f0c33a0d14df1303cba708339fb5e38535b00c"
+  integrity sha512-U4xcd/utDYFgMh0yWj07R1H6L5fwhVbmxBCpnL0DbVSDZVnsC82HONw0wxtxNkIAcua3KtbomQvIk5xFZGAQJw==
   dependencies:
-    execa "^7.0.0"
+    execa "^8.0.0"
     java-properties "^1.0.2"
 
 env-paths@^2.2.0:
@@ -3367,7 +3367,7 @@ events@^3.3.0:
   resolved "https://registry.yarnpkg.com/events/-/events-3.3.0.tgz#31a95ad0a924e2d2c419a813aeb2c4e878ea7400"
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
-execa@7.2.0, execa@^7.0.0:
+execa@7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/execa/-/execa-7.2.0.tgz#657e75ba984f42a70f38928cedc87d6f2d4fe4e9"
   integrity sha512-UduyVP7TLB5IcAQl+OzLyLcS/l32W/GLg+AhHJ+ow40FOk2U3SAllPwR44v4vmdFwIWqpdwxxpQbF1n5ta9seA==
@@ -7361,10 +7361,10 @@ semantic-release-slack-bot@^4.0.2:
     node-fetch "^2.3.0"
     slackify-markdown "^4.3.0"
 
-semantic-release@^22.0.4:
-  version "22.0.4"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.4.tgz#6a9262dd8a192ee3aff3142a0408d7eaade7b63a"
-  integrity sha512-0tRK9Kv0UQzYF51gK2aBXYnCv7w4pLP7nFHVaumMT6TTSGoV46vAx2qY0tkpm89m4Ce7S0skZGRZ1ndpFpOSNw==
+semantic-release@^22.0.5:
+  version "22.0.5"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.5.tgz#8a32168dea44a3275c724133f2f8922b1fbf9aac"
+  integrity sha512-ESCEQsZlBj1DWMA84RthaJzQHHnihoGk49s9nUxHfRNUNZelLE9JZrE94bHO2Y00EWb7iwrzr1OYhv5QNVmf8A==
   dependencies:
     "@semantic-release/commit-analyzer" "^11.0.0"
     "@semantic-release/error" "^4.0.0"
@@ -7374,7 +7374,7 @@ semantic-release@^22.0.4:
     aggregate-error "^5.0.0"
     cosmiconfig "^8.0.0"
     debug "^4.0.0"
-    env-ci "^9.0.0"
+    env-ci "^10.0.0"
     execa "^8.0.0"
     figures "^5.0.0"
     find-versions "^5.1.0"
