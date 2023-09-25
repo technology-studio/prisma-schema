@@ -3859,6 +3859,17 @@ glob@^10.2.2, glob@^10.2.5, glob@^10.3.3:
     minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
     path-scurry "^1.10.1"
 
+glob@^10.3.7:
+  version "10.3.7"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-10.3.7.tgz#d5bd30a529c8c9b262fb4b217941f64ad90e25ac"
+  integrity sha512-wCMbE1m9Nx5yD9LYtgsVWq5VhHlk5WzJirw594qZR6AIvQYuHrdDtIktUVjQItalD53y7dqoedu9xP0u0WaxIQ==
+  dependencies:
+    foreground-child "^3.1.0"
+    jackspeak "^2.0.3"
+    minimatch "^9.0.1"
+    minipass "^5.0.0 || ^6.0.2 || ^7.0.0"
+    path-scurry "^1.10.1"
+
 global-dirs@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/global-dirs/-/global-dirs-0.1.1.tgz#b319c0dd4607f353f3be9cca4c72fc148c49f445"
@@ -7297,6 +7308,13 @@ rimraf@^5.0.1:
   integrity sha512-OfFZdwtd3lZ+XZzYP/6gTACubwFcHdLRqS9UX3UwpU2dnGQYkPFISRwvM3w9IiB2w7bW5qGo/uAwE4SmXXSKvg==
   dependencies:
     glob "^10.2.5"
+
+rimraf@^5.0.4:
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.4.tgz#2a9b79e2fa5218c1d286095b4e0405cfc5f1064e"
+  integrity sha512-rizQI/o/YAMM1us0Zyax0uRfIK39XR52EAjjOi0fzMolpGp0onj6CWzBAXuOx6+6Xi9Rgi0d9tUZojhJerLUmQ==
+  dependencies:
+    glob "^10.3.7"
 
 run-async@^2.4.0:
   version "2.4.1"
