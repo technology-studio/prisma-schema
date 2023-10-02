@@ -6,22 +6,6 @@ on:
 
 jobs:
   release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: false
-      - uses: actions/setup-node@v3
-        with:
-          cache: 'yarn'
-          node-version-file: '.nvmrc'
-      - run: yarn install --frozen-lockfile
-      - run: yarn test --coverage
-      - uses: codecov/codecov-action@v3
-      - run: yarn semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELASE_GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          SLACK_WEBHOOK: ${{ secrets.SEMANTIC_RELEASE_SLACK_WEBHOOK }}
+    name: '/'
+    uses: technology-studio/github-workflows/.github/workflows/_release.yml@main
+    secrets: inherit
