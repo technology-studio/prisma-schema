@@ -12,11 +12,11 @@ jobs:
   embed-code:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
         with:
           persist-credentials: false
           fetch-depth: 0
-      - uses: technology-studio-forks/markdown-embed-code@v1.1.4
+      - uses: technology-studio-forks/markdown-embed-code@b7279b286dbbcaa341fdacf261854ede2c4ab756 # v1.1.4
         with:
           markdown: "README.md"
           token: ${{ secrets.GITHUB_TOKEN }}
