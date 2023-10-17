@@ -9,9 +9,5 @@ on:
 
 jobs:
   main:
-    name: Ensure semantic PR title
-    runs-on: ubuntu-latest
-    steps:
-      - uses: amannn/action-semantic-pull-request@v5
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    name: '/'
+    uses: technology-studio/github-workflows/.github/workflows/_pr.yml@main

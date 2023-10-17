@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn commitlint --edit || exec < /dev/tty && yarn cz --hook > /dev/null 2>&1 || true
+yarn commitlint --edit || exec < /dev/tty && yarn txo-cz --hook > /dev/null 2>&1 || true

@@ -1,0 +1,12 @@
+name: Embed code in README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  embed-code:
+    name: '/'
+    uses: technology-studio/github-workflows/.github/workflows/_sync-code-in-readme.yml@main
+    secrets: inherit
