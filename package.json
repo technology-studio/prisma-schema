@@ -43,7 +43,7 @@
   "dependencies": {},
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.2",
-    "@txo/commitlint": "^1.0.0",
+    "@txo/commitlint": "^1.0.5",
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^1.0.0",
     "@types/jest": "^29.5.5",
