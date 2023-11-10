@@ -45,7 +45,7 @@
     "@txo-peer-dep/log": "^4.0.2",
     "@txo/commitlint": "^1.0.5",
     "@txo/log-console": "^3.0.0",
-    "@txo/semantic-release": "^1.0.0",
+    "@txo/semantic-release": "^1.0.2",
     "@types/jest": "^29.5.5",
     "concurrently": "^8.2.1",
     "eslint-config-txo-typescript": "^4.0.3",
