@@ -1,3 +1,3 @@
 {
-  "*.{js,jsx,ts,tsx}": "eslint --cache --format=node_modules/eslint-formatter-pretty --ext .ts,.tsx"
+  "*.{js,jsx,ts,tsx}": "eslint --cache --max-warnings 0 --no-warn-ignored"
 }
