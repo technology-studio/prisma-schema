@@ -1444,12 +1444,12 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@txo-peer-dep/log@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-4.0.2.tgz#fa5ca396b43a534fc04bcaf7a31edcbd2543860c"
-  integrity sha512-tjdrOoyngUV9mbM9aURhQLwOTD9yEj+yiUx6yOG6CZNwqO9/EspRAUlyn03l7BzYwI2gWqfLLMt+4Zj385PVGw==
+"@txo-peer-dep/log@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@txo-peer-dep/log/-/log-4.0.3.tgz#409ae1853bb6ba34b47f6d8ecac6690f040318b7"
+  integrity sha512-k/qILHYoo1l6k554E0x+4XUe3EhQ4ffMQbMBCCrPPRHlgrhqyKfNh5y1LRuShibNHXpclUKg9HqnpdRJNJWpRw==
   dependencies:
-    "@txo/config-manager" "^3.1.0"
+    "@txo/config-manager" "^3.2.0"
 
 "@txo/commitlint@^1.0.5":
   version "1.0.5"
@@ -1460,10 +1460,10 @@
     "@commitlint/config-conventional" "^18.1.0"
     commitizen "^4.3.0"
 
-"@txo/config-manager@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.1.0.tgz#9a38d0ba2b2355f973775bafe884cdbb7225dc0d"
-  integrity sha512-rYSd5Mk4URK3hs7Y5nSXst4KOidmjJPeaNkh+D/L1ndVodvKwXO/rZV00VYXpW71/KSaG1Hj83At3r4WmboKvg==
+"@txo/config-manager@^3.2.0":
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.2.0.tgz#d6bf817d0b8fa2eece61f79fc99eedf2516d68b1"
+  integrity sha512-P4t09H/Q6AHoyps0jBy5tSp/HruQteyUeoxr758D2entD+rd8f0XXAdcrCCEIBeihlNAkv4MVj/n8bJulw5CLg==
 
 "@txo/log-console@^3.0.0":
   version "3.0.0"
