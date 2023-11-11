@@ -51,7 +51,7 @@
     "eslint-config-txo-typescript": "^4.0.4",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
-    "lint-staged": "^15.0.1",
+    "lint-staged": "^15.1.0",
     "npm-check-updates": "^16.14.6",
     "rimraf": "^5.0.5",
     "ts-jest": "^29.1.1",
