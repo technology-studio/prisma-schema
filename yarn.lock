@@ -1480,10 +1480,10 @@
     semantic-release "^22.0.7"
     semantic-release-slack-bot "^4.0.2"
 
-"@txo/tsconfig@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@txo/tsconfig/-/tsconfig-1.1.0.tgz#b8502e49877ae2339f1507094f6606fad5468008"
-  integrity sha512-GeKM2gXFaJcyC9nZwXvD3GYDrTRg66fuyAYt/i8NKm+wMPsBoTtJ6nkgqsXbYVVWRkgqdhFDP0sgs99vacA18g==
+"@txo/tsconfig@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@txo/tsconfig/-/tsconfig-1.1.1.tgz#0e746a34c5a5092459235e15588fb33e94cbf067"
+  integrity sha512-YA8LdOoATb+LgwHlVFKxbR6i4xWkr1h6dGTqLh3HHGe25wYzJ7rixNNWucCXaY270Dmb33JQi5sDe6a1XtwRcg==
 
 "@types/babel__core@^7.1.14":
   version "7.20.2"
