@@ -1470,14 +1470,14 @@
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
   integrity sha512-Dl7dnPMUXRr1JSBysUmzT9/RjMm9FWJdtZ9CXVnh9K4qwpT4fnjDV+GWiHHWAqob47XcE7N98M8rShGmpsukqg==
 
-"@txo/semantic-release@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.2.tgz#7aa839c9ac577bf543b7be48fbbf786be1de9bc2"
-  integrity sha512-kypHyIjApj89SxDXF8jatpLrwpCPfxNoSALWT2h3KsBQf6nNnSH6zlkDHmtsZ4lFZP6QRa4dcMjvazUXUr8v1A==
+"@txo/semantic-release@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.3.tgz#3feaf9f65c25c087fa242e2f9732fa38a179533b"
+  integrity sha512-M3D1Q9fnyXGvsqaN/rG0cqyD0b+XevEI6SVgvRqLRZi84gyRVFBfz/7QWWLqmowZxnqA0SslgXFY8Cc6E0LbFw==
   dependencies:
     "@semantic-release/changelog" "^6.0.3"
     "@semantic-release/git" "^10.0.1"
-    semantic-release "^22.0.7"
+    semantic-release "^22.0.8"
     semantic-release-slack-bot "^4.0.2"
 
 "@types/babel__core@^7.1.14":
@@ -4362,6 +4362,14 @@ import-fresh@^3.0.0, import-fresh@^3.2.1, import-fresh@^3.3.0:
     parent-module "^1.0.0"
     resolve-from "^4.0.0"
 
+import-from-esm@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/import-from-esm/-/import-from-esm-1.3.1.tgz#af05accf68b20cf832df86ed57038b7f92cdf0fb"
+  integrity sha512-YltaeDglQ6wDZOC8ZAY2I8vK1Ag4XVbs4GhlvNALWz0ee5V+CMkcBhAKbs1iuJZ3fmfgrKFCDRwliM3OxyQMLA==
+  dependencies:
+    debug "^4.3.4"
+    import-meta-resolve "^4.0.0"
+
 import-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/import-from/-/import-from-4.0.0.tgz#2710b8d66817d232e16f4166e319248d3d5492e2"
@@ -4379,6 +4387,11 @@ import-local@^3.0.2:
   dependencies:
     pkg-dir "^4.2.0"
     resolve-cwd "^3.0.0"
+
+import-meta-resolve@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/import-meta-resolve/-/import-meta-resolve-4.0.0.tgz#0b1195915689f60ab00f830af0f15cc841e8919e"
+  integrity sha512-okYUR7ZQPH+efeuMJGlq4f8ubUgO50kByRPyt/Cy1Io4PSRsPjxME+YlVaCOx+NIToW7hCsZNFJyTPFFKepRSA==
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -7581,10 +7594,10 @@ semantic-release-slack-bot@^4.0.2:
     node-fetch "^2.3.0"
     slackify-markdown "^4.3.0"
 
-semantic-release@^22.0.7:
-  version "22.0.7"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.7.tgz#9ca7cba742ff54f861f983977898b6073bba9c4d"
-  integrity sha512-Stx23Hjn7iU8GOAlhG3pHlR7AoNEahj9q7lKBP0rdK2BasGtJ4AWYh3zm1u3SCMuFiA8y4CE/Gu4RGKau1WiaQ==
+semantic-release@^22.0.8:
+  version "22.0.8"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-22.0.8.tgz#13470a2af04e42fd767da278bcdddb0e91c8fb3f"
+  integrity sha512-55rb31jygqIYsGU/rY+gXXm2fnxBIWo9azOjxbqKsPnq7p70zwZ5v+xnD7TxJC+zvS3sy1eHLGXYWCaX3WI76A==
   dependencies:
     "@semantic-release/commit-analyzer" "^11.0.0"
     "@semantic-release/error" "^4.0.0"
@@ -7602,6 +7615,7 @@ semantic-release@^22.0.7:
     git-log-parser "^1.2.0"
     hook-std "^3.0.0"
     hosted-git-info "^7.0.0"
+    import-from-esm "^1.3.1"
     lodash-es "^4.17.21"
     marked "^9.0.0"
     marked-terminal "^6.0.0"
