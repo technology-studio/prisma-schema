@@ -3250,10 +3250,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-standard-with-typescript@^39.1.1:
-  version "39.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-39.1.1.tgz#d682bd1fc8f1ee996940f85c9b0a833d7cfa5fee"
-  integrity sha512-t6B5Ep8E4I18uuoYeYxINyqcXb2UbC0SOOTxRtBSt2JUs+EzeXbfe2oaiPs71AIdnoWhXDO2fYOHz8df3kV84A==
+eslint-config-standard-with-typescript@^40.0.0:
+  version "40.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-40.0.0.tgz#6501601dc35e378e6b16e22257e80b7bd276119d"
+  integrity sha512-GXUJcwIXiTQaS3H4etv8a1lejVVdZYaxZNz3g7vt6GoJosQqMTurbmSC4FVGyHiGT/d1TjFr3+47A3xsHhsG+Q==
   dependencies:
     "@typescript-eslint/parser" "^6.4.0"
     eslint-config-standard "17.1.0"
@@ -3263,16 +3263,16 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.8.tgz#b05747e0f667145057f9bb939c13465bfb7c00c6"
-  integrity sha512-gtcQmQv1643lZ54z3Gr1OapzobPuTON3GwMssFLHODX0Pl/wOCrNWtoBXBraywr3LHUX5S6RDE/T3BPrggjZPg==
+eslint-config-txo-typescript@^4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.9.tgz#19a495001ce43f1d7bd48f0e5f680a4d71a2c7a7"
+  integrity sha512-LACB3HLj5atqGMvdoLz/eiMq1npouwHf0Wn/QmM4jWXmEI/5kpgKvdlH8vRncJVw+8RFpkvTgRGgc8tShzkviA==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.1.0"
     "@typescript-eslint/eslint-plugin" "^6.11.0"
     "@typescript-eslint/parser" "^6.11.0"
     eslint "^8.54.0"
-    eslint-config-standard-with-typescript "^39.1.1"
+    eslint-config-standard-with-typescript "^40.0.0"
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.0"
     eslint-plugin-jest "^27.6.0"
