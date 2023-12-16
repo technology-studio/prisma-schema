@@ -3251,10 +3251,10 @@ eslint-compat-utils@^0.1.2:
   resolved "https://registry.yarnpkg.com/eslint-compat-utils/-/eslint-compat-utils-0.1.2.tgz#f45e3b5ced4c746c127cf724fb074cd4e730d653"
   integrity sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==
 
-eslint-config-standard-with-typescript@^42.0.0:
-  version "42.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-42.0.0.tgz#19e8fb3d996701328230cf735ee86dbfb8e8e352"
-  integrity sha512-m1/2g/Sicun1uFZOFigJVeOqo9fE7OkMsNtilcpHwdCdcGr21qsGqYiyxYSvvHfJwY7w5OTQH0hxk8sM2N5Ohg==
+eslint-config-standard-with-typescript@^43.0.0:
+  version "43.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard-with-typescript/-/eslint-config-standard-with-typescript-43.0.0.tgz#e3d336b949e621a79b9150585777cdc9808e37d7"
+  integrity sha512-AT0qK01M5bmsWiE3UZvaQO5da1y1n6uQckAKqGNe6zPW5IOzgMLXZxw77nnFm+C11nxAZXsCPrbsgJhSrGfX6Q==
   dependencies:
     "@typescript-eslint/parser" "^6.4.0"
     eslint-config-standard "17.1.0"
@@ -3264,16 +3264,16 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.20:
-  version "4.0.20"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.20.tgz#74bbeec08a799006cc67195d272d1cf084943afe"
-  integrity sha512-e8Yf69j7nfVc5SluaVUuGUd8TCL4RJ77Qp+qC/jQ/mwvbPYQid3KByq85fpTFp1ppc6QXEm6LhPRup/e7MWI7Q==
+eslint-config-txo-typescript@^4.0.21:
+  version "4.0.21"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.21.tgz#0ece427abd10e7f11dee070c660337d34b57c52a"
+  integrity sha512-RlbI2cGIj0gZxqevd5ibK8Odx6JKnhE/mCymVdJpNbhxXCGR+Dtdd2s1jMyvEzqodYfT84lJ+5ZspaL9kEMuvQ==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.1.0"
     "@typescript-eslint/eslint-plugin" "^6.14.0"
     "@typescript-eslint/parser" "^6.14.0"
     eslint "^8.56.0"
-    eslint-config-standard-with-typescript "^42.0.0"
+    eslint-config-standard-with-typescript "^43.0.0"
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.1"
     eslint-plugin-jest "^27.6.0"
