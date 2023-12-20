@@ -3264,10 +3264,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.22:
-  version "4.0.22"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.22.tgz#bd842e399fb0f27ef2838dc6cac094faa00b22ed"
-  integrity sha512-bh0X4t7gdWdCrJA3FrmcvOIk+sQ+P72k03iwNClQgT2iDqyErJwv7UNETAUSt1y0LFVK6TK7W1kM12W9YGx08A==
+eslint-config-txo-typescript@^4.0.23:
+  version "4.0.23"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.23.tgz#cf443be18e8d2f0b20c9e1c57fc909f88901a98b"
+  integrity sha512-ITpP1CDFdL4+GANunbTJad4hASfdGmUvFUnDY+DNdJu+XEjdguEdiNyc0fd0F0WTpH/nA2UTR/OR+WbKSx4iSg==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.1.0"
     "@typescript-eslint/eslint-plugin" "^6.15.0"
@@ -3277,7 +3277,7 @@ eslint-config-txo-typescript@^4.0.22:
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.1"
     eslint-plugin-jest "^27.6.0"
-    eslint-plugin-n "^16.4.0"
+    eslint-plugin-n "^16.5.0"
     eslint-plugin-promise "^6.1.1"
     globals "^13.24.0"
 
@@ -3349,10 +3349,10 @@ eslint-plugin-jest@^27.6.0:
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
-eslint-plugin-n@^16.4.0:
-  version "16.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-16.4.0.tgz#02ff70d2b164319b6d566672969a9c24688a43df"
-  integrity sha512-IkqJjGoWYGskVaJA7WQuN8PINIxc0N/Pk/jLeYT4ees6Fo5lAhpwGsYek6gS9tCUxgDC4zJ+OwY2bY/6/9OMKQ==
+eslint-plugin-n@^16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-16.5.0.tgz#4dbd7459f95bc2556ec318480767e8837af168fc"
+  integrity sha512-Hw02Bj1QrZIlKyj471Tb1jSReTl4ghIMHGuBGiMVmw+s0jOPbI4CBuYpGbZr+tdQ+VAvSK6FDSta3J4ib/SKHQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     builtins "^5.0.1"
