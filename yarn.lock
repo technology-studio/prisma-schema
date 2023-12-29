@@ -3265,10 +3265,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.24:
-  version "4.0.24"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.24.tgz#5083de0070d0bce70b0f3272f98d370c1954f1df"
-  integrity sha512-205sEYIq3nR8pKFiVoZob/POQSMUjXKe3duRO+YIan6SnpwbitgtrSwCWppUkCapTh69ltJNlw5ehOUODIXeiQ==
+eslint-config-txo-typescript@^4.0.25:
+  version "4.0.25"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.25.tgz#07cc044106ef5d381c4fd152bde8511b5f64de2f"
+  integrity sha512-75t7QhEfdyc3E0NHUAZe0WLK0F4s/v1xhF0OmwKlMdiIsrjVCaSlVxZXw1GE//40KzHhr8uhBRm8RqNeUxYaBQ==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.1.0"
     "@typescript-eslint/eslint-plugin" "^6.16.0"
@@ -3278,7 +3278,7 @@ eslint-config-txo-typescript@^4.0.24:
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.1"
     eslint-plugin-jest "^27.6.0"
-    eslint-plugin-n "^16.5.0"
+    eslint-plugin-n "^16.6.0"
     eslint-plugin-promise "^6.1.1"
     globals "^13.24.0"
 
@@ -3350,15 +3350,16 @@ eslint-plugin-jest@^27.6.0:
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
-eslint-plugin-n@^16.5.0:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-16.5.0.tgz#4dbd7459f95bc2556ec318480767e8837af168fc"
-  integrity sha512-Hw02Bj1QrZIlKyj471Tb1jSReTl4ghIMHGuBGiMVmw+s0jOPbI4CBuYpGbZr+tdQ+VAvSK6FDSta3J4ib/SKHQ==
+eslint-plugin-n@^16.6.0:
+  version "16.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-n/-/eslint-plugin-n-16.6.0.tgz#035acc6154cbbe81a0611dffb53e70b883e246fb"
+  integrity sha512-Ag3tYFF90lYU8JdHEl9qSSpeLYbVnO+Oj7sgPUarWUacv1mPL3d5h5yG4Bv3tLe71hrcxmgTi7oByYwKXaVatw==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     builtins "^5.0.1"
     eslint-plugin-es-x "^7.5.0"
     get-tsconfig "^4.7.0"
+    globals "^13.24.0"
     ignore "^5.2.4"
     is-builtin-module "^3.2.1"
     is-core-module "^2.12.1"
