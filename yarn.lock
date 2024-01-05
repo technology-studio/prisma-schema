@@ -1449,10 +1449,10 @@
   dependencies:
     "@txo/config-manager" "^3.2.0"
 
-"@txo/commitlint@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.0.9.tgz#98c1e95efd021aa6ea4c7b7e182bced13a00b9ac"
-  integrity sha512-WDL0Q08EFQ8tLFDnl7V8Fn2ZeN+TplSnR9uCfG6U13tMAADUAFkxLkzXD2I2d0eMTGrq8snOt4drc/jdQzcGeQ==
+"@txo/commitlint@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.0.10.tgz#01027c7bb497e2189229a53a411966925e2e4efb"
+  integrity sha512-xmg9yGVGsBXKWlfl4tnug0E6xO55M8ux1bW0yCuEACxiJWmtnNCQjDRHohagPEblAQlIsE1a3pMJRbiP/qzvFg==
   dependencies:
     "@commitlint/cli" "^18.4.4"
     "@commitlint/config-conventional" "^18.4.4"
