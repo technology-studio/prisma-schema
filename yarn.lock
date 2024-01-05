@@ -1468,10 +1468,10 @@
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
   integrity sha512-Dl7dnPMUXRr1JSBysUmzT9/RjMm9FWJdtZ9CXVnh9K4qwpT4fnjDV+GWiHHWAqob47XcE7N98M8rShGmpsukqg==
 
-"@txo/semantic-release@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.7.tgz#df51468cc7ecafbec3ae7f7ff8188ed777ca88b5"
-  integrity sha512-1uanshGuFv0Z6ClGbPt7eVMWAIcuQYd7Q8kfqwgxfBqfOgr2ipVDR83S9hGHm8T2krz7R7FMVU5ude+IJdGx9w==
+"@txo/semantic-release@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.8.tgz#7009ff891d2de1638e6b3509956a4dc8ee21f0ee"
+  integrity sha512-rRQVf4UqcjW/Lc29AO+H90ofsB17Wti5hG4/qjfZRMjxNrU1zm88Izek1nGjZerarCVzoRRr5ovXL0GRScmhRQ==
   dependencies:
     "@semantic-release/changelog" "^6.0.3"
     "@semantic-release/git" "^10.0.1"
