@@ -3256,10 +3256,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.31:
-  version "4.0.31"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.31.tgz#3c45ce70941bcb7d4fcc58e73b4920c1c34a7690"
-  integrity sha512-GJK3V6uLAVhhumT3coVkxyAxt20zIE7xx0BfChsQBImrsmUHwgb6q/AEpbWA9gDsBke0lTPkhaemwaaQnw1DKw==
+eslint-config-txo-typescript@^4.0.32:
+  version "4.0.32"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.32.tgz#f834e7763a37c162dc5bae0629c1b7dd78367d41"
+  integrity sha512-A2xXSfKXONiFgwHte3jFaDJeLmohacstSzVgizufkI5Vp1F7cri02INW1zw3ES4hmUy/W8EllgKTEX33I593gw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.1.0"
     "@typescript-eslint/eslint-plugin" "^6.18.1"
@@ -3268,7 +3268,7 @@ eslint-config-txo-typescript@^4.0.31:
     eslint-config-standard-with-typescript "^43.0.0"
     eslint-import-resolver-typescript "^3.6.1"
     eslint-plugin-import "^2.29.1"
-    eslint-plugin-jest "^27.6.2"
+    eslint-plugin-jest "^27.6.3"
     eslint-plugin-n "^16.6.2"
     eslint-plugin-promise "^6.1.1"
     globals "^13.24.0"
@@ -3334,10 +3334,10 @@ eslint-plugin-import@^2.29.1:
     semver "^6.3.1"
     tsconfig-paths "^3.15.0"
 
-eslint-plugin-jest@^27.6.2:
-  version "27.6.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.6.2.tgz#8e69404fcd5dfeac03cac478f0ebb9bf2d8db56b"
-  integrity sha512-CI1AlKrsNhYFoP48VU8BVWOi7+qHTq4bRxyUlGjeU8SfFt8abjXhjOuDzUoMp68DoXIx17KpNpIkMrl4s4ZW0g==
+eslint-plugin-jest@^27.6.3:
+  version "27.6.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-27.6.3.tgz#8acb8b1e45597fe1f4d4cf25163d90119efc12be"
+  integrity sha512-+YsJFVH6R+tOiO3gCJon5oqn4KWc+mDq2leudk8mrp8RFubLOo9CVyi3cib4L7XMpxExmkmBZQTPDYVBzgpgOA==
   dependencies:
     "@typescript-eslint/utils" "^5.10.0"
 
