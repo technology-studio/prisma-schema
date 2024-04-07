@@ -479,10 +479,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@eslint-community/eslint-plugin-eslint-comments@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@eslint-community/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-4.1.0.tgz#97642b45572b78e7decc7f88b672c7cf773c30b9"
-  integrity sha512-B2mwipifrBS5E00vN8vME68laPMZ0h3sNGOEDj5g9iUN9k5EU99Omq0Nc325eKNoFFDnDtiHp3DqIjO+1bstag==
+"@eslint-community/eslint-plugin-eslint-comments@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@eslint-community/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-4.2.0.tgz#15a996c34104e6ca8e9b08b2f8ccd9523e766b4d"
+  integrity sha512-t+1TfaJO+4xgBotNWguwTEVShTbaGvxBbC9VuMqHejSXf37SderUyXLRi3MwiMgUSGDuTYR3qcUP4pHtIH/35A==
   dependencies:
     escape-string-regexp "^4.0.0"
     ignore "^5.2.4"
@@ -3185,12 +3185,12 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.50:
-  version "4.0.50"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.50.tgz#5df372c6c37e89b2a6f13c0f5e5927e7d93ce7b1"
-  integrity sha512-RkQqn4sVKZMHgYR/PnWL5ew2toQ1rZCS4JkjqcZqZGRKv4669wLC3Nw4WTvG0fyH7VuF7iBWEcjXvUxVqJiMaw==
+eslint-config-txo-typescript@^4.0.51:
+  version "4.0.51"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.51.tgz#156356d96bbcc3cf5ad01b660a173c77d01827e1"
+  integrity sha512-wzEthmF44yI75Io0BgrLiMrhQgIvisbEF65zoM4uYIM6QpnNxTyG4ixpTDL6RQClpQNJoxI41pyjHFjr0pqEPA==
   dependencies:
-    "@eslint-community/eslint-plugin-eslint-comments" "^4.1.0"
+    "@eslint-community/eslint-plugin-eslint-comments" "^4.2.0"
     "@typescript-eslint/eslint-plugin" "^7.5.0"
     "@typescript-eslint/parser" "^7.5.0"
     eslint "^8.57.0"
