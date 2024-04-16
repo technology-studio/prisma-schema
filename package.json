@@ -31,7 +31,7 @@
     "lint": "eslint --max-warnings 0 .",
     "fixcode": "eslint . --fix",
     "git-hook": "yarn -s lint-staged",
-    "prepare": "husky install && yarn build",
+    "prepare": "husky && yarn build",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
     "sanity": "yarn lint && yarn build && tsc --noEmit && yarn test --coverage && yarn compare-boilerplate-version && echo 'success'",
     "semantic-release": "semantic-release",
@@ -49,14 +49,14 @@
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.12",
     "concurrently": "^8.2.2",
-    "eslint-config-txo-typescript": "^4.0.52",
-    "husky": "^8.0.3",
+    "eslint-config-txo-typescript": "^4.0.53",
+    "husky": "^9.0.11",
     "jest": "^29.7.0",
     "lint-staged": "^15.2.2",
     "npm-check-updates": "^16.14.18",
     "rimraf": "^5.0.5",
     "ts-jest": "^29.1.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   }
 }
