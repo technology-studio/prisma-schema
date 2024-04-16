@@ -31,7 +31,7 @@
     "lint": "eslint --max-warnings 0 .",
     "fixcode": "eslint . --fix",
     "git-hook": "yarn -s lint-staged",
-    "prepare": "husky install && yarn build",
+    "prepare": "husky && yarn build",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
     "sanity": "yarn lint && yarn build && tsc --noEmit && yarn test --coverage && yarn compare-boilerplate-version && echo 'success'",
     "semantic-release": "semantic-release",
