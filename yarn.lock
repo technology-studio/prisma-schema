@@ -3224,10 +3224,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.53:
-  version "4.0.53"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.53.tgz#c4e2a9906393bc2e62a42aef676caa4cef3a9714"
-  integrity sha512-G2QxdxtdtY6M5/mtIP/1t9GjbMirbvhPfAJUeqEVj4ckEZa/3Ip+qv72tzinkoQsKizPnEk4mfzEv/vibTs2Yg==
+eslint-config-txo-typescript@^4.0.56:
+  version "4.0.56"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.56.tgz#4990f7eac2d1a237accf867263b016dfb512dff7"
+  integrity sha512-GonfOCkopg3eMifz7j+4Q+gnVp21WMinCO2gqOo+JE9NaYnlWf7r0jVgVsoDNVOxdUgwoXAIfB6FNAhL5tZrow==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.3.0"
     "@typescript-eslint/eslint-plugin" "^7.5.0"
@@ -3239,7 +3239,7 @@ eslint-config-txo-typescript@^4.0.53:
     eslint-plugin-jest "^27.9.0"
     eslint-plugin-n "^16.6.2"
     eslint-plugin-promise "^6.1.1"
-    globals "^15.0.0"
+    globals "^15.1.0"
 
 eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
@@ -3984,10 +3984,10 @@ globals@^13.19.0, globals@^13.24.0:
   dependencies:
     type-fest "^0.20.2"
 
-globals@^15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-15.0.0.tgz#9c6cd4e54327ceaab563b4c17ee5e9d181c03fd2"
-  integrity sha512-m/C/yR4mjO6pXDTm9/R/SpYTAIyaUB4EOzcaaMEl7mds7Mshct9GfejiJNQGjHHbdMPey13Kpu4TMbYi9ex1pw==
+globals@^15.1.0:
+  version "15.1.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.1.0.tgz#4e03d200c8362201636b8cdfaa316d6cef67ff1e"
+  integrity sha512-926gJqg+4mkxwYKiFvoomM4J0kWESfk3qfTvRL2/oc/tK/eTDBbrfcKnSa2KtfdxB5onoL7D3A3qIHQFpd4+UA==
 
 globalthis@^1.0.3:
   version "1.0.3"
@@ -6282,10 +6282,10 @@ npm-bundled@^3.0.0:
   dependencies:
     npm-normalize-package-bin "^3.0.0"
 
-npm-check-updates@^16.14.18:
-  version "16.14.18"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.14.18.tgz#d87501e5eebf305196caa4edb7137b56937ec99c"
-  integrity sha512-9iaRe9ohx9ykdbLjPRIYcq1A0RkrPYUx9HmQK1JIXhfxtJCNE/+497H9Z4PGH6GWRALbz5KF+1iZoySK2uSEpQ==
+npm-check-updates@^16.14.20:
+  version "16.14.20"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-16.14.20.tgz#02c06df77593f5d32e19966b19dddeaca73f69a0"
+  integrity sha512-sYbIhun4DrjO7NFOTdvs11nCar0etEhZTsEjL47eM0TuiGMhmYughRCxG2SpGRmGAQ7AkwN7bw2lWzoE7q6yOQ==
   dependencies:
     "@types/semver-utils" "^1.1.1"
     chalk "^5.3.0"
