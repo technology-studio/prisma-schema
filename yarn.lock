@@ -3187,10 +3187,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.56:
-  version "4.0.56"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.56.tgz#4990f7eac2d1a237accf867263b016dfb512dff7"
-  integrity sha512-GonfOCkopg3eMifz7j+4Q+gnVp21WMinCO2gqOo+JE9NaYnlWf7r0jVgVsoDNVOxdUgwoXAIfB6FNAhL5tZrow==
+eslint-config-txo-typescript@^4.0.57:
+  version "4.0.57"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.57.tgz#37f05923bfa20443da03cbd20cb132ed595cb2c4"
+  integrity sha512-4T7aIa5G/RYrpmfYOgzdc89BlYfeihjI9OSK10Og7UcOpU2F+A98PeKijgAGmpa3Z0kJ9ci404KCLu8KNIiQZw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.3.0"
     "@typescript-eslint/eslint-plugin" "^7.5.0"
