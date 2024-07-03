@@ -3187,10 +3187,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.63:
-  version "4.0.63"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.63.tgz#50c78cea63e789cb34201ef5603d141713f76cd9"
-  integrity sha512-jD6mdCezwAkAZf5hxpuQbXBs7v2ka9gTI7d+iL2vlPX6TfCql9PSzqWbzSoL//R/w3K+RoedFU1B1+uBjSuATg==
+eslint-config-txo-typescript@^4.0.64:
+  version "4.0.64"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.64.tgz#162e9dfa729f7191f5d5e3510e7e5cd208f6eeb8"
+  integrity sha512-94BiFISLNltyPPx0Mi6igRFwmTbZL61T+Es+oZr4a4L/T3N+fKAaT7evsp7l5LwAprfETS0La01PhHP6W5bJ4Q==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.3.0"
     "@typescript-eslint/eslint-plugin" "^7.5.0"
@@ -3202,7 +3202,7 @@ eslint-config-txo-typescript@^4.0.63:
     eslint-plugin-jest "^27.9.0"
     eslint-plugin-n "^16.6.2"
     eslint-plugin-promise "^6.1.1"
-    globals "^15.7.0"
+    globals "^15.8.0"
 
 eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
@@ -3954,10 +3954,10 @@ globals@^13.19.0, globals@^13.24.0:
   dependencies:
     type-fest "^0.20.2"
 
-globals@^15.7.0:
-  version "15.7.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-15.7.0.tgz#d9ca65edad684c438b179749fc57def027557f93"
-  integrity sha512-ivatRXWwKC6ImcdKO7dOwXuXR5XFrdwo45qFwD7D0qOkEPzzJdLXC3BHceBdyrPOD3p1suPaWi4Y4NMm2D++AQ==
+globals@^15.8.0:
+  version "15.8.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.8.0.tgz#e64bb47b619dd8cbf32b3c1a0a61714e33cbbb41"
+  integrity sha512-VZAJ4cewHTExBWDHR6yptdIBlx9YSSZuwojj9Nt5mBRXQzrKakDsVKQ1J63sklLvzAJm0X5+RpO4i3Y2hcOnFw==
 
 globalthis@^1.0.3:
   version "1.0.3"
