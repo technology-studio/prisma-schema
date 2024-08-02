@@ -2964,10 +2964,10 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript@^4.0.64:
-  version "4.0.64"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.64.tgz#162e9dfa729f7191f5d5e3510e7e5cd208f6eeb8"
-  integrity sha512-94BiFISLNltyPPx0Mi6igRFwmTbZL61T+Es+oZr4a4L/T3N+fKAaT7evsp7l5LwAprfETS0La01PhHP6W5bJ4Q==
+eslint-config-txo-typescript@^4.0.65:
+  version "4.0.65"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.65.tgz#7833fb6d53ec50b051ebd07f6c394fbb2d1cbc15"
+  integrity sha512-v1BbM7kEys7nhK5URzkC+Wtaj+/P0WXxfZiaNIZePk73A9+EG0V1sJ3wFZdkVblkoexHw2JogtT/TiwKj+19Nw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.3.0"
     "@typescript-eslint/eslint-plugin" "^7.5.0"
@@ -2979,7 +2979,7 @@ eslint-config-txo-typescript@^4.0.64:
     eslint-plugin-jest "^27.9.0"
     eslint-plugin-n "^16.6.2"
     eslint-plugin-promise "^6.1.1"
-    globals "^15.8.0"
+    globals "^15.9.0"
 
 eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
@@ -3709,10 +3709,10 @@ globals@^13.19.0, globals@^13.24.0:
   dependencies:
     type-fest "^0.20.2"
 
-globals@^15.8.0:
-  version "15.8.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-15.8.0.tgz#e64bb47b619dd8cbf32b3c1a0a61714e33cbbb41"
-  integrity sha512-VZAJ4cewHTExBWDHR6yptdIBlx9YSSZuwojj9Nt5mBRXQzrKakDsVKQ1J63sklLvzAJm0X5+RpO4i3Y2hcOnFw==
+globals@^15.9.0:
+  version "15.9.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.9.0.tgz#e9de01771091ffbc37db5714dab484f9f69ff399"
+  integrity sha512-SmSKyLLKFbSr6rptvP8izbyxJL4ILwqO9Jg23UA0sDlGlu58V59D1//I3vlc0KJphVdUR7vMjHIplYnzBxorQA==
 
 globalthis@^1.0.3:
   version "1.0.3"
@@ -7393,10 +7393,10 @@ ts-api-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.0.3.tgz#f12c1c781d04427313dbac808f453f050e54a331"
   integrity sha512-wNMeqtMz5NtwpT/UZGY5alT+VoKdSsOOP/kqHFcUW1P/VRhH2wJ48+DN2WwUliNbQ976ETwDL0Ifd2VVvgonvg==
 
-ts-jest@^29.2.3:
-  version "29.2.3"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.2.3.tgz#3d226ac36b8b820151a38f164414f9f6b412131f"
-  integrity sha512-yCcfVdiBFngVz9/keHin9EnsrQtQtEu3nRykNy9RVp+FiPFFbPJ3Sg6Qg4+TkmH0vMP5qsTKgXSsk80HRwvdgQ==
+ts-jest@^29.2.4:
+  version "29.2.4"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-29.2.4.tgz#38ccf487407d7a63054a72689f6f99b075e296e5"
+  integrity sha512-3d6tgDyhCI29HlpwIq87sNuI+3Q6GLTTCeYRHCs7vDz+/3GCMwEtV9jezLyl4ZtnBgx00I7hm8PCP8cTksMGrw==
   dependencies:
     bs-logger "0.x"
     ejs "^3.1.10"
