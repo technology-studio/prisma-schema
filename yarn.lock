@@ -314,15 +314,15 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@commitlint/cli@^19.3.0":
-  version "19.3.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-19.3.0.tgz#44e6da9823a01f0cdcc43054bbefdd2c6c5ddf39"
-  integrity sha512-LgYWOwuDR7BSTQ9OLZ12m7F/qhNY+NpAyPBgo4YNMkACE7lGuUnuQq1yi9hz1KA4+3VqpOYl8H1rY/LYK43v7g==
+"@commitlint/cli@^19.4.0":
+  version "19.4.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-19.4.0.tgz#9f93d3ed07e531fcfa371015c8c87e0aa26d974f"
+  integrity sha512-sJX4J9UioVwZHq7JWM9tjT5bgWYaIN3rC4FP7YwfEwBYiIO+wMyRttRvQLNkow0vCdM0D67r9NEWU0Ui03I4Eg==
   dependencies:
     "@commitlint/format" "^19.3.0"
     "@commitlint/lint" "^19.2.2"
-    "@commitlint/load" "^19.2.0"
-    "@commitlint/read" "^19.2.1"
+    "@commitlint/load" "^19.4.0"
+    "@commitlint/read" "^19.4.0"
     "@commitlint/types" "^19.0.3"
     execa "^8.0.1"
     yargs "^17.0.0"
@@ -386,10 +386,10 @@
     "@commitlint/rules" "^19.0.3"
     "@commitlint/types" "^19.0.3"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-19.2.0.tgz#3ca51fdead4f1e1e09c9c7df343306412b1ef295"
-  integrity sha512-XvxxLJTKqZojCxaBQ7u92qQLFMMZc4+p9qrIq/9kJDy8DOrEa7P1yx7Tjdc2u2JxIalqT4KOGraVgCE7eCYJyQ==
+"@commitlint/load@>6.1.1", "@commitlint/load@^19.4.0":
+  version "19.4.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-19.4.0.tgz#7df034e226e300fd577d3f63a72d790d5c821f53"
+  integrity sha512-I4lCWaEZYQJ1y+Y+gdvbGAx9pYPavqZAZ3/7/8BpWh+QjscAn8AjsUpLV2PycBsEx7gupq5gM4BViV9xwTIJuw==
   dependencies:
     "@commitlint/config-validator" "^19.0.3"
     "@commitlint/execute-rule" "^19.0.0"
@@ -416,10 +416,10 @@
     conventional-changelog-angular "^7.0.0"
     conventional-commits-parser "^5.0.0"
 
-"@commitlint/read@^19.2.1":
-  version "19.2.1"
-  resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-19.2.1.tgz#7296b99c9a989e60e5927fff8388a1dd44299c2f"
-  integrity sha512-qETc4+PL0EUv7Q36lJbPG+NJiBOGg7SSC7B5BsPWOmei+Dyif80ErfWQ0qXoW9oCh7GTpTNRoaVhiI8RbhuaNw==
+"@commitlint/read@^19.4.0":
+  version "19.4.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/read/-/read-19.4.0.tgz#3866b1f9a272ef6a388986efa349d24228fc8b00"
+  integrity sha512-r95jLOEZzKDakXtnQub+zR3xjdnrl2XzerPwm7ch1/cc5JGq04tyaNpa6ty0CRCWdVrk4CZHhqHozb8yZwy2+g==
   dependencies:
     "@commitlint/top-level" "^19.0.0"
     "@commitlint/types" "^19.0.3"
@@ -1331,12 +1331,12 @@
   dependencies:
     "@txo/config-manager" "^3.2.0"
 
-"@txo/commitlint@^1.0.15":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.0.15.tgz#d53a4ad2a148be7f43fa86673cf6ae715ea5e48f"
-  integrity sha512-kfalLrwvPPGSlxa5W0lXRdzhkeybHwg65Dr+eEjWYaoNsEstkVvNMQZAxFnZVIeL2IhUxz970X0S+ljeS7f/LQ==
+"@txo/commitlint@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.0.16.tgz#24aeb9b24ebbe3500e50dbb80c88f3541d5d975f"
+  integrity sha512-hAPozdad38drIZA3J9ofI4FyGrERkUNBRk9gVkbbsQTX28Wi+hoUCYeonM/+PvrMUvsGysIy1x3M++G203f4Hg==
   dependencies:
-    "@commitlint/cli" "^19.3.0"
+    "@commitlint/cli" "^19.4.0"
     "@commitlint/config-conventional" "^19.2.2"
     commitizen "^4.3.0"
 
@@ -5762,10 +5762,10 @@ npm-bundled@^3.0.0:
   dependencies:
     npm-normalize-package-bin "^3.0.0"
 
-npm-check-updates@^17.0.3:
-  version "17.0.3"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-17.0.3.tgz#d0ad1cef8a4216c5b12542d90108b8e123d47b27"
-  integrity sha512-3UWnsnijmx4u9GnICHVCChz6JnhVLmYWqazoedWjLSY6hZB/QhMCps07vBbDmjWnHMhpl6YseAtFlvGbUq9Yrw==
+npm-check-updates@^17.0.6:
+  version "17.0.6"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-17.0.6.tgz#55f6b89cb5ef03bc42a00e359a90c21c7b057829"
+  integrity sha512-KCiaJH1cfnh/RyzKiDNjNfXgcKFyQs550Uf1OF/Yzb8xO56w+RLpP/OKRUx23/GyP/mLYwEpOO65qjmVdh6j0A==
 
 npm-install-checks@^6.0.0, npm-install-checks@^6.2.0, npm-install-checks@^6.3.0:
   version "6.3.0"
