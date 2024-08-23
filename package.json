@@ -56,7 +56,7 @@
     "lint-staged": "^15.2.9",
     "npm-check-updates": "^17.1.0",
     "rimraf": "^6.0.1",
-    "ts-jest": "^29.2.4",
+    "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   }
