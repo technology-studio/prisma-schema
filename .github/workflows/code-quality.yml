@@ -11,4 +11,4 @@ on:
 jobs:
   lint:
     name: '/'
-    uses: technology-studio/github-workflows/.github/workflows/_code-style.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_code-quality.yml@main
