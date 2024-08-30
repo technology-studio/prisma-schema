@@ -44,7 +44,7 @@
   "dependencies": {},
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.4",
-    "@txo/commitlint": "^1.0.16",
+    "@txo/commitlint": "^1.0.17",
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^2.0.8",
     "@txo/tsconfig": "^1.1.1",
