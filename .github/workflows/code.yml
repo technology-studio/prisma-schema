@@ -1,0 +1,19 @@
+name: "Code"
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+
+jobs:
+  code-quality:
+    name: "Code quality"
+    uses: technology-studio/github-workflows/.github/workflows/_code-quality.yml@main
+    secrets: inherit
+  type-check:
+    name: "Type check"
+    uses: technology-studio/github-workflows/.github/workflows/_type-check.yml@main
+    secrets: inherit
