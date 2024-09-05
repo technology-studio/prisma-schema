@@ -8,6 +8,7 @@ on:
       - synchronize
 
 jobs:
-  main:
-    name: '/'
-    uses: technology-studio/github-workflows/.github/workflows/_pr.yml@main
+  semantic-title:
+    name: "Semantic title"
+    uses: technology-studio/github-workflows/.github/workflows/_semantic-title.yml@main
+    secrets: inherit

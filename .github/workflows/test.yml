@@ -9,6 +9,7 @@ on:
       - ready_for_review
 
 jobs:
-  test:
-    name: '/'
-    uses: technology-studio/github-workflows/.github/workflows/_test.yml@main
+  unit:
+    name: 'Unit test'
+    uses: technology-studio/github-workflows/.github/workflows/_unit-test.yml@main
+    secrets: inherit
