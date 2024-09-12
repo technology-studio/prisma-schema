@@ -49,7 +49,7 @@
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^2.0.8",
     "@txo/tsconfig": "^1.1.1",
-    "@types/jest": "^29.5.12",
+    "@types/jest": "^29.5.13",
     "concurrently": "^9.0.1",
     "eslint-config-txo-typescript": "^4.0.66",
     "husky": "^9.1.6",
