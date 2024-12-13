@@ -1335,7 +1335,7 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@stylistic/eslint-plugin@^2.12.0":
+"@stylistic/eslint-plugin@^2.12.1":
   version "2.12.1"
   resolved "https://registry.yarnpkg.com/@stylistic/eslint-plugin/-/eslint-plugin-2.12.1.tgz#e341beb4e4315084d8be20bceeeda7d8a46f079f"
   integrity sha512-fubZKIHSPuo07FgRTn6S4Nl0uXPRPYVNpyZzIDGfp7Fny6JjNus6kReLD7NI380JXi4HtUTSOZ34LBuNPO1XLQ==
@@ -2994,20 +2994,20 @@ eslint-config-love@^110.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.15.0"
 
-eslint-config-txo-package-typescript@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.6.tgz#1fa0c0f2bdac0bdeb6dc3c4b8b55ea60da66b557"
-  integrity sha512-MajtQzEUPWPuskddvYy9nBQbOxtdS3eaTwC0n3rUkYY/4M6BzYkehu+WKBeb6i2CfbC80WsfO9D15/4F0bdE8g==
+eslint-config-txo-package-typescript@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.7.tgz#77ecd1b6a28c89a2db611cf79b9b0d7011cb5d9e"
+  integrity sha512-Z1X+V0a3rCtjMb/QIoZbxfi4+lo4J3UjBRbCwf8JYDFNbhcCfLXCBZgST9cdk+bWJ/8Z2D6o3a7OpSEyQ2W1xQ==
   dependencies:
-    eslint-config-txo-typescript "^7.2.5"
+    eslint-config-txo-typescript "^7.2.7"
 
-eslint-config-txo-typescript@^7.2.5:
-  version "7.2.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.2.5.tgz#a57009bd754e427cd491d3708f262c6d28bdbd1d"
-  integrity sha512-IEmhU2i8Y8EGTTHSsLEztdDKqrQI/NyBkS3N7c5iOj8qVc+6EQ6HR8mQMmDjjW+d6K8MA4PcFXlhrxeh5E4Sjg==
+eslint-config-txo-typescript@^7.2.7:
+  version "7.2.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.2.7.tgz#1923f3bee6d1f6697eb865595c92103343fab7a9"
+  integrity sha512-1npqOJM9d5lqBRvQxQx5+eGr/i2T2V+VoOZbdZVEfRZPVO8kz/8OKHkeXuJQMca/96Eyl6+clx5kRBMukCb0bw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.4.1"
-    "@stylistic/eslint-plugin" "^2.12.0"
+    "@stylistic/eslint-plugin" "^2.12.1"
     "@typescript-eslint/utils" "^8.18.0"
     eslint "^9.16.0"
     eslint-config-love "^110.0.0"
