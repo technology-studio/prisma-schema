@@ -1,6 +1,5 @@
 [
   "@typescript-eslint/no-magic-numbers",
-  "complexity",
   "@typescript-eslint/prefer-regexp-exec",
   "@stylistic/operator-linebreak",
   "@stylistic/indent-binary-ops",
