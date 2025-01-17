@@ -1,0 +1,13 @@
+[
+  "@typescript-eslint/no-magic-numbers",
+  "@typescript-eslint/prefer-regexp-exec",
+  "@stylistic/operator-linebreak",
+  "@stylistic/indent-binary-ops",
+  "@typescript-eslint/no-unsafe-type-assertion",
+  "@stylistic/space-before-function-paren",
+  "@typescript-eslint/prefer-destructuring",
+  "@typescript-eslint/no-unnecessary-condition",
+  "eslint-comments/require-description",
+  "@typescript-eslint/no-import-type-side-effects",
+  "@stylistic/arrow-parens"
+]

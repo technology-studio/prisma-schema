@@ -36,7 +36,7 @@
     "sanity": "yarn lint:ci && yarn build && tsc --noEmit && yarn test --coverage && yarn compare-boilerplate-version && echo 'success'",
     "semantic-release": "semantic-release",
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh",
-    "lint:ci": "yarn lint",
+    "lint:ci": "yarn eslint -c eslint-ci.config.js --cache . && yarn txo-eslint ccr --cache",
     "type-check": "tsc --noEmit"
   },
   "engines": {
@@ -52,7 +52,7 @@
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.7",
     "concurrently": "^9.1.2",
-    "eslint-config-txo-typescript": "^4.0.70",
+    "eslint-config-txo-package-typescript": "^1.0.28",
     "husky": "^9.1.7",
     "jest": "^29.7.0",
     "lint-staged": "^15.4.1",
