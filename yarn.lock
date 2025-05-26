@@ -3114,17 +3114,17 @@ eslint-config-love@^120.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.32.0"
 
-eslint-config-txo-package-typescript@^1.0.89:
-  version "1.0.89"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.89.tgz#db3fb82a71f27993a3bfdb22e366ef91ba76de02"
-  integrity sha512-Qx3viG/ewZgN2Zh6q9lv0Xx6t9wdjtZ9CIaXQ7gNv5lnyDxWvXQ7OHO1lhPJjXOi+I6b4p2gPBwKFJquH08Q2g==
+eslint-config-txo-package-typescript@^1.0.90:
+  version "1.0.90"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.90.tgz#f896d49d3fbf43c89b6f2cea03823d8ea8ce56f6"
+  integrity sha512-v2hdvx8fv7/bzO3W7PrpmEOdx93itUrI0yJSrOSrgbtqxrrrrSWmlWZ2+SCzlpmAvO2z0F0edXTPFZsorzjFdA==
   dependencies:
-    eslint-config-txo-typescript "^7.4.79"
+    eslint-config-txo-typescript "^7.4.80"
 
-eslint-config-txo-typescript@^7.4.79:
-  version "7.4.79"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.79.tgz#9147d98c12eb9e92981a14d50a995642b1d85163"
-  integrity sha512-mTdlfp9pn+0qARwoZSpYyt64QdLup2quxb2WrXhpk/wnF3RsX8qyWoG773nS0P7rmVDNGrl0zvgTff4sVK2IdA==
+eslint-config-txo-typescript@^7.4.80:
+  version "7.4.80"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.80.tgz#9ce59bb8ff2e9d90a6bfbc51e4e8d60ee832e796"
+  integrity sha512-ExX1aS5H3oaXcCHjAPoaEqdpcXriGPbxBAUKCSxhIl5GHIMYwQocKAuD/h81j4gV9dEJzsSx9iFa78rNbuCeuA==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@stylistic/eslint-plugin" "^4.4.0"
@@ -3136,7 +3136,7 @@ eslint-config-txo-typescript@^7.4.79:
     eslint-plugin-jest "^28.11.0"
     eslint-plugin-n "^17.18.0"
     eslint-plugin-promise "^7.2.1"
-    globals "^16.1.0"
+    globals "^16.2.0"
     typescript-eslint "^8.32.1"
     yargs "^17.7.2"
 
@@ -3922,10 +3922,10 @@ globals@^15.11.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-15.15.0.tgz#7c4761299d41c32b075715a4ce1ede7897ff72a8"
   integrity sha512-7ACyT3wmyp3I61S4fG682L0VA2RGD9otkqGJIwNUMF1SWUombIIk+af1unuDYgMm082aHYwD+mzJvv9Iu8dsgg==
 
-globals@^16.1.0:
-  version "16.1.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-16.1.0.tgz#ee6ab147d41c64e9f2beaaaf66572d18df8e1e60"
-  integrity sha512-aibexHNbb/jiUSObBgpHLj+sIuUmJnYcgXBlrfsiDZ9rt4aF2TFRbyLgZ2iFQuVZ1K5Mx3FVkbKRSgKrbK3K2g==
+globals@^16.2.0:
+  version "16.2.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-16.2.0.tgz#19efcd1ddde2bd5efce128e5c2e441df1abc6f7c"
+  integrity sha512-O+7l9tPdHCU320IigZZPj5zmRCFG9xHmx9cU8FqU2Rp+JN714seHV+2S9+JslCpY4gJwU2vOGox0wzgae/MCEg==
 
 globalthis@^1.0.4:
   version "1.0.4"
