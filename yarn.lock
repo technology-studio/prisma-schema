@@ -542,10 +542,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@eslint/js@9.27.0":
-  version "9.27.0"
-  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.27.0.tgz#181a23460877c484f6dd03890f4e3fa2fdeb8ff0"
-  integrity sha512-G5JD9Tu5HJEu4z2Uo4aHY2sLV64B7CDMXxFzqzjl3NKd6RVzSXNoE80jk7Y0lJkTTkjiIhBAqmlYwjuBY3tvpA==
+"@eslint/js@9.28.0":
+  version "9.28.0"
+  resolved "https://registry.yarnpkg.com/@eslint/js/-/js-9.28.0.tgz#7822ccc2f8cae7c3cd4f902377d520e9ae03f844"
+  integrity sha512-fnqSjGWd/CoIp4EXIxWVK/sHA6DOHN4+8Ix2cX5ycOY7LG0UY8nHCU5pIp2eaE1Mc7Qd8kHspYNzYXT2ojPLzg==
 
 "@eslint/object-schema@^2.1.6":
   version "2.1.6"
@@ -3130,24 +3130,24 @@ eslint-config-love@^120.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.32.0"
 
-eslint-config-txo-package-typescript@^1.0.93:
-  version "1.0.93"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.93.tgz#b229fa38d2a4f52bbd07cc44ed674c02a6218130"
-  integrity sha512-Ou2GMrOSyXHXXZWqV3x7rsN2/lODYKBJDOm5qjOEY+jCkw1F4OjzA4IJXAqMlPXDZukVbyTWsiNLScK1PxQ1ng==
+eslint-config-txo-package-typescript@^1.0.94:
+  version "1.0.94"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.94.tgz#1bf16a8f19abd52d5f202c8932aa4a185e077ff5"
+  integrity sha512-FQpBRAfUZH0bbLK2YdOaHr4KEnMEH6DHSgddozVlmvKSrjU75GYV91Aw4fdzDO1hL0eeW09JOKVAjxEbphKUAA==
   dependencies:
-    eslint-config-txo-typescript "^7.4.84"
+    eslint-config-txo-typescript "^7.4.85"
 
-eslint-config-txo-typescript@^7.4.84:
-  version "7.4.84"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.84.tgz#cf16e0e777288f82c49475e4634cd463ec1d140e"
-  integrity sha512-2QfG7LnODP0yj0tRu/UrNSyIXYmAWvK3exPOzHly3kVSH8084F5A4fFshtVYIak6xpbQ9XT/Uc8JuVeavA2NiA==
+eslint-config-txo-typescript@^7.4.85:
+  version "7.4.85"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.85.tgz#b79548220147e3c5241451ee6f6054cf4569831d"
+  integrity sha512-AxfyKUUgWmSliXamHKuioxbb1IZGxeQM4gvEA8eOCR64L0q3uw0mSvXZjWlWcvdSzeYwGlh22BLE/+Rry6S8QQ==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.5.0"
     "@stylistic/eslint-plugin" "^4.4.0"
     "@typescript-eslint/utils" "^8.33.0"
-    eslint "^9.27.0"
+    eslint "^9.28.0"
     eslint-config-love "^120.0.0"
-    eslint-import-resolver-typescript "^4.4.1"
+    eslint-import-resolver-typescript "^4.4.2"
     eslint-plugin-import "^2.31.0"
     eslint-plugin-jest "^28.12.0"
     eslint-plugin-n "^17.18.0"
@@ -3173,10 +3173,10 @@ eslint-import-resolver-node@^0.3.9:
     is-core-module "^2.13.0"
     resolve "^1.22.4"
 
-eslint-import-resolver-typescript@^4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-4.4.1.tgz#3da41dcaa17ddfc520ad2d2d1e30b8ac4e137e8e"
-  integrity sha512-KHQnjMAn/Hbs1AcMs2YfJTeNoWsaOoMRvJUKr77Y2dv7jNOaT8/IJYlvfN/ZIwTxUsv2B6amwv7u9bt2Vl9lZg==
+eslint-import-resolver-typescript@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-4.4.2.tgz#7d29b4663e13540354fe8c094c854b1a512a8e4e"
+  integrity sha512-GdSOy0PwLYpQCrmnEQujvA+X0NKrdnVCICEbZq1zlmjjD12NHOHCN9MYyrGFR9ydCs4wJwHEV9tts44ajSlGeA==
   dependencies:
     debug "^4.4.1"
     eslint-import-context "^0.1.5"
@@ -3281,10 +3281,10 @@ eslint-visitor-keys@^4.2.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-4.2.0.tgz#687bacb2af884fcdda8a6e7d65c606f46a14cd45"
   integrity sha512-UyLnSehNt62FFhSwjZlHmeokpRK59rcz29j+F1/aDgbkbRTk7wIc9XzdoasMUbRNKDM0qQt/+BJ4BrpFeABemw==
 
-eslint@^9.27.0:
-  version "9.27.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.27.0.tgz#a587d3cd5b844b68df7898944323a702afe38979"
-  integrity sha512-ixRawFQuMB9DZ7fjU3iGGganFDp3+45bPOdaRurcFHSXO1e/sYwUX/FtQZpLZJR6SjMoJH8hR2pPEAfDyCoU2Q==
+eslint@^9.28.0:
+  version "9.28.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.28.0.tgz#b0bcbe82a16945a40906924bea75e8b4980ced7d"
+  integrity sha512-ocgh41VhRlf9+fVpe7QKzwLj9c92fDiqOj8Y3Sd4/ZmVA4Btx4PlUYPq4pp9JDyupkf1upbEXecxL2mwNV7jPQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
     "@eslint-community/regexpp" "^4.12.1"
@@ -3292,7 +3292,7 @@ eslint@^9.27.0:
     "@eslint/config-helpers" "^0.2.1"
     "@eslint/core" "^0.14.0"
     "@eslint/eslintrc" "^3.3.1"
-    "@eslint/js" "9.27.0"
+    "@eslint/js" "9.28.0"
     "@eslint/plugin-kit" "^0.3.1"
     "@humanfs/node" "^0.16.6"
     "@humanwhocodes/module-importer" "^1.0.1"
