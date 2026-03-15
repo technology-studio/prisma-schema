@@ -4,8 +4,12 @@ on:
     branches:
       - main
 
+permissions:
+  id-token: write
+  contents: write
+
 jobs:
   release:
-    name: '/'
+    name: 'Release'
     uses: technology-studio/github-workflows/.github/workflows/_release.yml@main
     secrets: inherit
