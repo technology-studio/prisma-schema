@@ -8,7 +8,7 @@ jobs:
   resolve-yarn-lock-on-comment:
     name: '/'
     if: contains(github.event.comment.body, '/resolve yarn.lock')
-    uses: technology-studio/github-workflows/.github/workflows/_resolve-yarn-lock.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_resolve-yarn-lock.yml@696ee6d68a8fdb357c5a6e26e748fba32f09a9bb # main
     secrets: inherit
     with:
       pr_number: ${{ github.event.issue.number }}
