@@ -322,7 +322,7 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@commitlint/cli@^20.5.2":
+"@commitlint/cli@^20.5.3":
   version "20.5.3"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-20.5.3.tgz#6b4bfcf19fc149b0a357725f551bad11a930f145"
   integrity sha512-OJdL0EXWD5y9LPa0nr/geOwzaS8BsdaybKkcloB0JgsguGxNv2R+hC2FTPqrAcprg35zF33KOQerY0x8W1aesA==
@@ -335,10 +335,10 @@
     tinyexec "^1.0.0"
     yargs "^17.0.0"
 
-"@commitlint/config-conventional@^20.5.0":
-  version "20.5.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-20.5.0.tgz#7a9e971b4d54dd3dd22114baf9a23c99515b7957"
-  integrity sha512-t3Ni88rFw1XMa4nZHgOKJ8fIAT9M2j5TnKyTqJzsxea7FUetlNdYFus9dz+MhIRZmc16P0PPyEfh6X2d/qw8SA==
+"@commitlint/config-conventional@^20.5.3":
+  version "20.5.3"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-20.5.3.tgz#ccf17ee4c695cd4b73784c6ce7fdb5b20d22be99"
+  integrity sha512-j34Qqeaa152chJgz2ysyk0BCpHenJn1lV0Rx0VXf8k3ccQcED+48EZrzMvo9jLmJUyBrrBwvu89I+2er4gW7QQ==
   dependencies:
     "@commitlint/types" "^20.5.0"
     conventional-changelog-conventionalcommits "^9.2.0"
@@ -1449,13 +1449,13 @@
   dependencies:
     "@txo/config-manager" "^3.2.0"
 
-"@txo/commitlint@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.1.5.tgz#4cd454140bd0dfbbdcbc69b4d4f67b83456a3acf"
-  integrity sha512-zphJ+7cw3ZL86maa/IWInoDBkp+/xTEesLOUt98OPv0CmF+TLkUIahJWZVfhkOjpvsuDOs+/tx/sXqN/hQxeGQ==
+"@txo/commitlint@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.1.6.tgz#95ab7b637d9e53d4c240699db62c30f94b5fdd47"
+  integrity sha512-C0+vYwJUWCX0rbx2FTqHno2792VO/HQGFNGzoN3AwpWV241oeB/QNtgdYfsPOuvTf6Tsw8wCg/WLcJJIxR3aww==
   dependencies:
-    "@commitlint/cli" "^20.5.2"
-    "@commitlint/config-conventional" "^20.5.0"
+    "@commitlint/cli" "^20.5.3"
+    "@commitlint/config-conventional" "^20.5.3"
     commitizen "^4.3.1"
 
 "@txo/config-manager@^3.2.0":
