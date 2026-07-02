@@ -8,5 +8,5 @@ on:
 jobs:
   embed-code:
     name: '/'
-    uses: technology-studio/github-workflows/.github/workflows/_sync-code-in-readme.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_sync-code-in-readme.yml@696ee6d68a8fdb357c5a6e26e748fba32f09a9bb # main
     secrets: inherit
