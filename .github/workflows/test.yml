@@ -8,6 +8,10 @@ on:
       - synchronize
       - ready_for_review
 
+permissions:
+  contents: read
+  id-token: write
+
 jobs:
   unit:
     name: 'Unit test'
