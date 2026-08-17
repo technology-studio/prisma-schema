@@ -1448,13 +1448,13 @@
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
   integrity sha512-Dl7dnPMUXRr1JSBysUmzT9/RjMm9FWJdtZ9CXVnh9K4qwpT4fnjDV+GWiHHWAqob47XcE7N98M8rShGmpsukqg==
 
-"@txo/semantic-release@^2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-2.1.4.tgz#a4b26460ef4ace5a9cad7645ff6bee5775fe16c2"
-  integrity sha512-OVy3VK7qla+IFere47TVzlc6bHkqeji86pTPQ1Zel9RtkeKGg2hGqAmMZEbNw+V2a0xHpBN5gnh88D6ZFuEZ3Q==
+"@txo/semantic-release@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-2.1.5.tgz#0c0645f97cc043602a8820b11ec65d9f3949f149"
+  integrity sha512-xUJ+60Y+EUWFSCM6i1TguMn0anAWe5XwvX2M9NeZtlOhWNeomXROrEwk37gdsv3GAZaRqie80dGcvwxZ2KsLZQ==
   dependencies:
     conventional-changelog-conventionalcommits "^10.2.1"
-    semantic-release "^25.0.7"
+    semantic-release "^25.0.8"
     semantic-release-slack-bot "^4.0.2"
 
 "@txo/tsconfig-cjs@^2.0.0":
@@ -6664,7 +6664,7 @@ semantic-release-slack-bot@^4.0.2:
     node-fetch "^2.3.0"
     slackify-markdown "^4.3.0"
 
-semantic-release@^25.0.7:
+semantic-release@^25.0.8:
   version "25.0.9"
   resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-25.0.9.tgz#8f768a079df5b432adab0807459afa308a535097"
   integrity sha512-bxve7csK0/Txr++CkfrmV+X1r4jqiSOw2WsSad9E2S68R+ZfLBwDn8IceM8WfiOmKQIHgsQc1cNA8Dzg7U75pg==
