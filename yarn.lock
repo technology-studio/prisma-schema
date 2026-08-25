@@ -3039,17 +3039,17 @@ eslint-config-love@^120.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.32.0"
 
-eslint-config-txo-package-typescript@^1.0.120:
-  version "1.0.120"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.120.tgz#8c025ca25e47c922a5e802086c3f3155b8825e8e"
-  integrity sha512-2dPhP5ASu18+kWbQbBG2tJ0LSPQfUxJa6wZMJvQKqphShckjfzFQIp+ALMtHvos64zcOlzwLLvqAjVNC92RMJw==
+eslint-config-txo-package-typescript@^1.0.121:
+  version "1.0.122"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.122.tgz#c883f74622285cee4e3a56c852c24febc7a4e502"
+  integrity sha512-E2dEBdquyJhZKG6jZTI8VvTp5Kbtem/Wz8tY8IU7i2caeNC1oMQp4B8P1YWJu9kbFYL19hHe/M5EKNWh/coIWQ==
   dependencies:
-    eslint-config-txo-typescript "^7.4.115"
+    eslint-config-txo-typescript "^7.4.117"
 
-eslint-config-txo-typescript@^7.4.115:
-  version "7.4.116"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.116.tgz#6cc6e81975f107593b2b03914f02a6ff4bf7c2a2"
-  integrity sha512-dpsRfcg8/r/2/XPwr6oftP0nLXCHXABDWteVzrYIF8ZFq0+kic6BiUDMbsWHG319Hjuib2I0gxLQ/G3TGbuTWA==
+eslint-config-txo-typescript@^7.4.117:
+  version "7.4.118"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-7.4.118.tgz#ead334a1a39d4e049e7ece9ba31fd10efc9f819b"
+  integrity sha512-L0trF3WdGa9ZgXQVAV0aPpJhtOojyEvEI7/KfnHSPzJq65eCX3na+404sj3dTlUkhRiJwhriCtJGXf3GP5ZiTw==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.7.2"
     "@stylistic/eslint-plugin" "^4.4.1"
@@ -3063,7 +3063,7 @@ eslint-config-txo-typescript@^7.4.115:
     eslint-plugin-promise "^7.2.1"
     globals "^16.5.0"
     typescript-eslint "^8.45.0"
-    yargs "^17.7.2"
+    yargs "^17.7.3"
 
 eslint-import-context@^0.1.8:
   version "0.1.8"
@@ -7891,7 +7891,7 @@ yargs-parser@^22.0.0:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-22.0.0.tgz#87b82094051b0567717346ecd00fd14804b357c8"
   integrity sha512-rwu/ClNdSMpkSrUb+d6BRsSkLUq1fmfsY6TOpYzTwvwkg1/NRG85KBy3kq++A8LKQwX6lsu+aWad+2khvuXrqw==
 
-yargs@17.7.2, yargs@^17.0.0, yargs@^17.3.1, yargs@^17.7.2:
+yargs@17.7.2:
   version "17.7.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.7.2.tgz#991df39aca675a192b816e1e0363f9d75d2aa269"
   integrity sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==
@@ -7916,6 +7916,19 @@ yargs@^16.0.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yargs@^17.0.0, yargs@^17.3.1, yargs@^17.7.3:
+  version "17.7.3"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-17.7.3.tgz#779dffe6bcafec596a7172e983289a588647faaa"
+  integrity sha512-GZtjxm/J/4TSxuL3FNYjCmLktBTnIw/rVmKSIyKeYAZpmJB2ig9VauCC5xsa82GNKVKDAqpOn3KVzNt0zmrU0g==
+  dependencies:
+    cliui "^8.0.1"
+    escalade "^3.1.1"
+    get-caller-file "^2.0.5"
+    require-directory "^2.1.1"
+    string-width "^4.2.3"
+    y18n "^5.0.5"
+    yargs-parser "^21.1.1"
 
 yargs@^18.0.0:
   version "18.1.0"
