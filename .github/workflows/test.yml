@@ -15,5 +15,5 @@ permissions:
 jobs:
   unit:
     name: 'Unit test'
-    uses: technology-studio/github-workflows/.github/workflows/_unit-test.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_unit-test.yml@45c6d0da456aff0525690d86cac745bc75a96a85 # main
     secrets: inherit
