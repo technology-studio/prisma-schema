@@ -11,7 +11,7 @@ permissions:
 jobs:
   release:
     name: 'Release'
-    uses: technology-studio/github-workflows/.github/workflows/_release.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_release.yml@45c6d0da456aff0525690d86cac745bc75a96a85 # main
     secrets:
       SEMANTIC_RELEASE_SLACK_WEBHOOK: ${{ secrets.SEMANTIC_RELEASE_SLACK_WEBHOOK }}
       TXO_SLACK_BOT_APP_TOKEN: ${{ secrets.TXO_SLACK_BOT_APP_TOKEN }}
