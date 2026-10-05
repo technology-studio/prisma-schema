@@ -3039,7 +3039,7 @@ eslint-config-love@^120.0.0:
     eslint-plugin-promise "^7.0.0"
     typescript-eslint "^8.32.0"
 
-eslint-config-txo-package-typescript@^1.0.122:
+eslint-config-txo-package-typescript@^1.0.123:
   version "1.0.123"
   resolved "https://registry.yarnpkg.com/eslint-config-txo-package-typescript/-/eslint-config-txo-package-typescript-1.0.123.tgz#3faa70c7eb65c89997b8c730e658ffd7a505644c"
   integrity sha512-904zuyQqnPQojzNN5iFCub/LDVAkuR3+HBPXFTeqE6lRJgiz90vv5wKPnFNQKRbvd3NgTbWQ5hNQv6MUNDQfMA==
