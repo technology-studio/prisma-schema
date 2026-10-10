@@ -13,7 +13,7 @@ permissions:
 jobs:
   semantic-title:
     name: 'Semantic title'
-    uses: technology-studio/github-workflows/.github/workflows/_semantic-title.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_semantic-title.yml@45c6d0da456aff0525690d86cac745bc75a96a85 # main
     secrets:
       TXO_SLACK_BOT_APP_TOKEN: ${{ secrets.TXO_SLACK_BOT_APP_TOKEN }}
       TXO_SLACK_GITHUB_OPS_CHANNEL_ID: ${{ secrets.TXO_SLACK_GITHUB_OPS_CHANNEL_ID }}
