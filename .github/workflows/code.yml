@@ -11,9 +11,9 @@ on:
 jobs:
   code-quality:
     name: "Code quality"
-    uses: technology-studio/github-workflows/.github/workflows/_code-quality.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_code-quality.yml@1e5321ebd14135cbc352a3f66df606d4824a95a7 # main
     secrets: inherit
   type-check:
     name: "Type check"
-    uses: technology-studio/github-workflows/.github/workflows/_type-check.yml@main
+    uses: technology-studio/github-workflows/.github/workflows/_type-check.yml@1e5321ebd14135cbc352a3f66df606d4824a95a7 # main
     secrets: inherit
